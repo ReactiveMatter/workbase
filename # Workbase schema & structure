@@ -20,14 +20,3 @@ Privileges
 * Settings = change settings
 # Option for admin to approve data entry
 -> Groups can be created with a combination of above privileges
-
-My personal use case:
-* Books read, movies seen database (Nice colorful tags with powerful filters)
-* Links database
-* To do list (With completed and not completed tags, target time stamp)
-* Notification option by date.
-
-Organisational use case:
-* Malkhana records (Basic entry, edit, and search)
-* Accused records (Basic entry, edit, and search)
-* Stolen vehicle records (Basic entry, edit, and search)
