@@ -1,0 +1,1 @@
+<div id="footer">Workbase version <?=WORKBASE?></div>

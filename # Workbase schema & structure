@@ -1,0 +1,33 @@
+# Workbase schema & structure
+One setup = 1 Database
+Using sqlite for easy maintenance
+
+Within the DB ther will be multiple tables.
+Each table will multiple customisable actions and views.
+1. Add data form
+2. View data (with filters) -> Filters are customizable and a set of filters can be saved as a "saved view"
+(Join table option to fetch data from other tables for viewing)
+3. Search data (multiple pages, for each column) [Minimalistic]
+(Join table option to fetch data from other tables for viewing)
+
+Access control (Table wise) of actions
+* Owner/Administrator = full privileges
+Privileges
+* View = To view data and filter & Search
+* Add = Add data
+* Delete data / Update / Edit data
+* Approve = Confirm add data
+* Settings = change settings
+# Option for admin to approve data entry
+-> Groups can be created with a combination of above privileges
+
+My personal use case:
+* Books read, movies seen database (Nice colorful tags with powerful filters)
+* Links database
+* To do list (With completed and not completed tags, target time stamp)
+* Notification option by date.
+
+Organisational use case:
+* Malkhana records (Basic entry, edit, and search)
+* Accused records (Basic entry, edit, and search)
+* Stolen vehicle records (Basic entry, edit, and search)
